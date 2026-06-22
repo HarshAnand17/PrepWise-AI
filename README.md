@@ -5,8 +5,9 @@ The frontend sends this data to the backend through REST APIs. The backend proce
 
 The backend receives the AI response, processes it, stores the results in MongoDB, and sends the formatted data back to the frontend. Finally, the user can view all the generated insights through an interactive dashboard.
 
-# Project Flow Diagram
+## Project Flow
 
+```text
 User Registration / Login
             ↓
       JWT Authentication
@@ -39,6 +40,8 @@ Store Results in MongoDB
 Send Response to Frontend
             ↓
 Interactive Dashboard
+```
+
   
 ## Setup
 

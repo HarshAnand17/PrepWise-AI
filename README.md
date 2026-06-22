@@ -40,16 +40,17 @@ Send Response to Frontend
             ↓
 Interactive Dashboard
   
-# Setup
+## Setup
 
-Clone the repository
+```bash
+#Clone the repository
 git clone https://github.com/HarshAnand17/PrepWise-AI
 
-Setup backend
+#Setup backend
 npm install
 npm run dev
 
-Setup frontend
+#Setup frontend
 cd Frontend
 npm install
 npm run dev

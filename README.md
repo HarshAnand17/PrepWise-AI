@@ -1,11 +1,11 @@
-# PrepWise AI – Interview Preparation Assistan
+# PrepWise AI – Interview Preparation Assistant
 The workflow of PrepWise AI – Interview Assistant starts when a user logs into the platform and uploads their resume or provides a self-description. The user then enters the job description of the role they are targeting.
 
 The frontend sends this data to the backend through REST APIs. The backend processes the information and sends a structured prompt to the Gemini AI model. Gemini analyzes the resume and job description, then generates a match score, skill-gap analysis, personalized roadmap, and technical and behavioral interview questions with answers.
 
 The backend receives the AI response, processes it, stores the results in MongoDB, and sends the formatted data back to the frontend. Finally, the user can view all the generated insights through an interactive dashboard.
 
-## Project Flow Diagram
+# Project Flow Diagram
 
 User Registration / Login
             ↓
@@ -40,16 +40,16 @@ Send Response to Frontend
             ↓
 Interactive Dashboard
   
-### Setup
+# Setup
 
-# Clone the repository
+Clone the repository
 git clone https://github.com/HarshAnand17/PrepWise-AI
 
-# Setup backend
+Setup backend
 npm install
 npm run dev
 
-# Setup frontend
+Setup frontend
 cd Frontend
 npm install
 npm run dev

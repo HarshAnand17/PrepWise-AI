@@ -43,10 +43,10 @@ Interactive Dashboard
 ## Setup
 
 ```bash
-#Clone the repository
+# Clone the repository
 git clone https://github.com/HarshAnand17/PrepWise-AI
 
-#Setup backend
+# Setup backend
 npm install
 npm run dev
 
